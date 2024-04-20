@@ -1,0 +1,165 @@
+@media(max-width:1199px) {
+    .mainPosterText {
+        top: 5%;
+    }
+
+    .mainPosterText h2 {
+        font-size: 110px;
+    }
+
+    .mainPosterText h4 {
+        font-size: 26px;
+    }
+
+    .mainPosterText p {
+        font-size: 18px;
+    }
+
+    .mainPosterText a {
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 24px;
+    }
+}
+
+@media(max-width:992px) {
+    .mainPosterText {
+        top: 5%;
+
+    }
+
+    .mainPosterText h2 {
+        font-size: 90px;
+    }
+
+    .mainPosterText h4 {
+        font-size: 22px;
+    }
+
+    .mainPosterText p {
+        font-size: 15px;
+    }
+
+    .mainPosterText a {
+        font-size: 15px;
+        padding: 9px 18px;
+        margin-top: 15px;
+    }
+    .Heading h2::after {
+        content: '';
+        height: 2px;
+        width: 150px;
+    }
+    .Heading h2::before {
+        content: '';
+        height: 2px;
+        width: 150px;
+    }
+}
+
+@media(max-width:768px) {
+    .mainPosterText {
+        top: 5%;
+    }
+
+    .mainPosterText h2 {
+        font-size: 70px;
+    }
+
+    .mainPosterText h4 {
+        font-size: 18px;
+    }
+
+    .mainPosterText p {
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .mainPosterText a {
+        font-size: 15px;
+        padding: 5px 16px;
+        margin-top: 8px;
+    }
+    .Heading h2::after {
+        content: '';
+        height: 2px;
+        width: 110px;
+    }
+    .Heading h2::before {
+        content: '';
+        height: 2px;
+        width: 110px;
+    }
+}
+
+@media(max-width:667px) {
+    .mainPosterText {
+        top: 5%;
+
+    }
+
+    .mainPosterText h2 {
+        font-size: 60px;
+    }
+
+    .mainPosterText h4 {
+        font-size: 16px;
+    }
+
+    .mainPosterText p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .mainPosterText a {
+        font-size: 15px;
+        padding: 4px 14px;
+        margin-top: 4px;
+    }
+    .Heading h2::after {
+        content: '';
+        height: 2px;
+        width: 70px;
+    }
+    .Heading h2::before {
+        content: '';
+        height: 2px;
+        width: 70px;
+    }
+}
+
+@media(max-width:575px) {
+    .mainPosterText {
+        position: static;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .mainPosterText h2 {
+        font-size: 60px;
+    }
+
+    .mainPosterText h4 {
+        font-size: 16px;
+    }
+
+    .mainPosterText p {
+        font-size: 12px;
+        width: auto;
+
+    }
+
+    .mainPosterText a {
+        font-size: 15px;
+        padding: 4px 14px;
+        margin-top: 4px;
+    }
+    .Heading h2::after {
+        display: none;
+    }
+    .Heading h2::before {
+    display: none;
+    }
+}
