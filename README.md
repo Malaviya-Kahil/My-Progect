@@ -1,2 +1,2 @@
-# My-Progect
+# My-Project
 My First Project
