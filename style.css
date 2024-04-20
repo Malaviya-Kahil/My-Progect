@@ -143,6 +143,12 @@ img {
 .Heading h2 span{
     color: #fd8534;
 }
+.shoeLeft{
+    overflow: hidden;
+}
+.shoeRight{
+    overflow: hidden;
+}
 
 .shoeLeft img {
     transition: all 0.2s ease-out;
@@ -211,6 +217,7 @@ img {
 .productsDad {
     background-color: whitesmoke;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .productsDad img {
