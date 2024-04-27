@@ -3,13 +3,24 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
-    outline-color:none!important;
+    outline-color: none !important;
 }
-.container{
-    overflow-x: hidden !important;
+
+
+.mainPosterOuter {
+    overflow: hidden;
 }
-.container-fluid{
-    overflow-x: hidden !important;
+
+.productOneMain {
+    overflow: hidden;
+}
+
+.productTwoOuter {
+    overflow: hidden;
+}
+
+.marketing {
+    overflow: hidden;
 }
 
 h1,
@@ -24,7 +35,6 @@ p,
 a {
     margin: 0px;
     padding: 0px;
-
 }
 
 img {
@@ -89,7 +99,6 @@ img {
     background: #c15a15;
 }
 
-/* mainposter */
 .mainPosterOuter {
     position: relative;
 }
@@ -132,28 +141,34 @@ img {
     border-radius: 100px;
     color: white;
     text-transform: uppercase;
+   
+}
+.mainPosterText a:hover{
+    background-color: #c15a15;
 }
 
 
 
-/* service */
 .service img {
     width: 100px;
 }
 
-/* products */
+
 .Heading h2 {
     font-size: 50px;
     display: inline-block;
     position: relative;
 }
-.Heading h2 span{
+
+.Heading h2 span {
     color: #fd8534;
 }
-.shoeLeft{
+
+.shoeLeft {
     overflow: hidden;
 }
-.shoeRight{
+
+.shoeRight {
     overflow: hidden;
 }
 
@@ -227,7 +242,7 @@ img {
 
 }
 
-.productsDad:hover img{
+.productsDad:hover img {
     transform: rotate(-15deg);
     filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.671));
 }
@@ -251,11 +266,13 @@ img {
 .productsDad p {
     margin: 8px 0 8px 20px;
 }
-.KnowMoreDiv li::marker{
+
+.KnowMoreDiv li::marker {
     color: #dd4797;
     font-size: 18px;
 }
-.KnowMoreDiv h4{
+
+.KnowMoreDiv h4 {
 
     color: #dd4797;
     font-size: 30px;
@@ -284,56 +301,67 @@ img {
     font-size: 15px;
 }
 
-.KnowMoreDiv .form-check-input{
+.KnowMoreDiv .form-check-input {
     float: none;
 }
-.productsDad .knowInput{
+
+.productsDad .knowInput {
     margin: 0;
 }
-.KnowMoreDiv input{
+
+.KnowMoreDiv input {
     margin: 0;
 }
-.KnowMoreDiv li p{
- display: -webkit-box;
+
+.KnowMoreDiv li p {
+    display: -webkit-box;
     -webkit-line-clamp: 3;
     overflow: hidden;
     -webkit-box-orient: vertical;
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-
-.reviewHolder{
+.reviewHolder {
     width: 150px;
     border-radius: 500px;
     overflow: hidden;
     margin: 15px auto;
+    transition: all 0.5s ease-out;
 }
-.reviewButton{
+.reviewHolder:hover {
+   scale:1.1;
+}
+
+.reviewButton {
     background-color: #fd8534;
     color: white;
 }
-.reviewButton:hover{
+
+.reviewButton:hover {
     background-color: #c15a15;
     color: white;
 }
-.footerImage img{
-width: 100px;
+
+.footerImage img {
+    width: 100px;
 }
-.footerImage li{
+
+.footerImage li {
     margin: 5px 0px;
-    
+
 }
-.footerImage li a{
+
+.footerImage li a {
     transition: all 0.15s ease-out;
 }
-.footerOuter{
+
+.footerOuter {
     background-color: whitesmoke;
 }
-.footerImage li a:hover{
-    transform: translate(10px ,0px);
+
+.footerImage li a:hover {
+    transform: translate(10px, 0px);
     display: inline-block;
     color: #dd4797 !important;
 }
