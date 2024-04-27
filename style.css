@@ -5,8 +5,11 @@
     font-family: 'Jost', sans-serif;
     outline-color:none!important;
 }
-body{
-    overflow-x: hidden
+.container{
+    overflow-x: hidden !important;
+}
+.container-fluid{
+    overflow-x: hidden !important;
 }
 
 h1,
