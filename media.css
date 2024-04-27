@@ -135,9 +135,7 @@
 }
 
 @media(max-width:575px) {
-    body{
-        overflow-x: hidden;
-    }
+
     .mainPosterText {
         position: static;
         margin: 15px auto 30px;
