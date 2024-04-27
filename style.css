@@ -3,9 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
+    outline-color:none!important;
+}
+body{
+    overflow-x: hidden
 }
 
-.m0p0 h1,
+h1,
 h2,
 h3,
 h4,
@@ -217,17 +221,19 @@ img {
 .productsDad {
     background-color: whitesmoke;
     border-radius: 10px;
-    overflow: hidden;
+
 }
+
+.productsDad:hover img{
+    transform: rotate(-15deg);
+    filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.671));
+}
+
 
 .productsDad img {
-    transition: all 0.25s ease;
+    transition: all 0.25s ease-out;
 }
 
-.productsDad:hover img {
-    transform: rotate(-20deg);
-    filter: drop-shadow(0px 7px 7px gray);
-}
 
 .productsDad h3 {
     margin: 8px 0 8px 20px;
