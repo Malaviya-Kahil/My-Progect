@@ -20,9 +20,10 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav  class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img
+          src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,11 +31,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" id="rand" href="#">Home</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="rand" aria-expanded="false">
               sport
             </a>
             <ul class="dropdown-menu">
@@ -46,7 +47,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="rand" data-bs-toggle="dropdown" aria-expanded="false">
               classic
             </a>
             <ul class="dropdown-menu">
@@ -56,14 +57,14 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">about</a>
+            <a class="nav-link active" aria-current="page" id="rand" href="#">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">contact us</a>
+            <a class="nav-link active" aria-current="page" id="rand" href="#">contact us</a>
           </li>
           <form class="d-flex" role="search">
             <button type="button" class="btn  headerButton text-light px-5 mx-lg-5 rounded-pill" data-bs-toggle="modal"
-              data-bs-target="#exampleModal" type="submit">Log in</button>
+              data-bs-target="#exampleModal"  type="submit">Log in</button>
           </form>
         </ul>
       </div>
@@ -146,12 +147,12 @@
   <div class="mainPosterOuter">
     <div class="container-fluid">
       <div class="mainposterInner">
-        <img src="https://i.postimg.cc/gJ7bXrQn/main-poster.png" alt="">
+        <img id="mega" src="https://i.postimg.cc/gJ7bXrQn/main-poster.png" alt="">
         <div class="mainPosterText m0p0">
-          <h4>Branded</h4>
-          <h2>Shoes</h2>
-          <p>Lorem ipsum dolor sit amet elit.</p>
-          <a href="">Shop Now</a>
+          <h4 id="dand">Branded</h4>
+          <h2 id="dand">Shoes</h2>
+          <p id="dand">Lorem ipsum dolor sit amet elit.</p>
+          <a id="rand2" href="">Shop Now</a>
         </div>
       </div>
     </div>
@@ -174,7 +175,9 @@
       <div class="col-lg-4 col-md-6 service  text-center  my-4">
         <div class="row align-items-center">
           <div class="col-md-12 col-sm-6 col-12 ">
-            <img src="https://i.postimg.cc/nzq7PQxD/toppng-com-see-the-source-image-cash-on-delivery-now-available-638x635-1.png" alt="">
+            <img
+              src="https://i.postimg.cc/nzq7PQxD/toppng-com-see-the-source-image-cash-on-delivery-now-available-638x635-1.png"
+              alt="">
             <h2 class="fw-normal my-3">Cash On Delivery</h2>
           </div>
           <div class="col-md-12 col-sm-6 col-12  ">
@@ -200,62 +203,62 @@
   </div>
   <div class="productOneMain">
     <div class="container">
-      <div class="productOneInner Heading text-center">
-
+      <div class="productOneInner HeadingOne Heading text-center">
         <div class="row">
           <div class="col-12">
             <h2 class="my-5">Future Is Here</h2>
           </div>
-          <div class="col-12 twoShoe shoeLeft col-md-6"><img src="https://i.postimg.cc/d3H0HqhC/bbo.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight col-md-6"><img src="https://i.postimg.cc/3Ry78gNk/f1.png" alt=""></div>
+          <div class="col-12 twoShoe shoeLeft  OneshoeLeft col-md-6"><img src="https://i.postimg.cc/d3H0HqhC/bbo.png" alt=""></div>
+          <div class="col-12 twoShoe shoeRight OneshoeRight col-md-6"><img src="https://i.postimg.cc/3Ry78gNk/f1.png" alt=""></div>
         </div>
       </div>
     </div>
   </div>
-  <div class="productTwoOuter">
+  <div class="productTwoOuter productsDadaOuter">
     <div class="container">
-      <div class="productTwoInner Heading text-center">
+      <div class="productTwoInner HeadingTwo Heading text-center">
         <h2 class="my-5">Latest Trends</h2>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
-              <div class="px-3">
-                <h3>Neon Blue</h3>
-                <h5>$122 <span>$299</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
-                  value="ADD TO CART">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
                 <h5>$157 <span>$269</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
               <div class="px-3">
-                <h3>Multi Spa</h3>
-                <h5>$189 <span>$289</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png
+              " alt="">
               <div class="px-3">
-                <h3>Tuff Red</h3>
-                <h5>$210 <span>$299</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
+                  value="ADD TO CART">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+              <div class="px-3">
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
@@ -263,76 +266,77 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
-              <div class="px-3">
-                <h3>Neon Blue</h3>
-                <h5>$122 <span>$299</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
-                  value="ADD TO CART">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
                 <h5>$157 <span>$269</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad">
-              <img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
               <div class="px-3">
-                <h3>Multi Spa</h3>
-                <h5>$189 <span>$289</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png
+              " alt="">
               <div class="px-3">
-                <h3>Tuff Red</h3>
-                <h5>$210 <span>$299</span></h5>
-                <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+              <div class="px-3">
+                <h3>Purple Fur</h3>
+                <h5>$157 <span>$269</span></h5>
+                <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
+                  value="ADD TO CART">
+              </div>
+            </div>
+          </div>
+          <div class="row py-3"></div>
         </div>
       </div>
     </div>
   </div>
   <div class="productOneMain">
     <div class="container">
-      <div class="productOneInner Heading text-center">
+      <div class="productOneInner HeadingThree Heading text-center">
         <div class="row">
           <div class="col-12">
             <h2 class="my-5">Popular Ones</h2>
           </div>
-          <div class="col-12 twoShoe shoeLeft col-md-6"><img src="https://i.postimg.cc/JhqvQmxw/bob.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight col-md-6"><img src="https://i.postimg.cc/wv4rSVn0/bb.png" alt=""></div>
-          <div class="col-12 twoShoe shoeLeft col-md-6"><img src="https://i.postimg.cc/4xvSJZrK/mp.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight col-md-6"><img src="https://i.postimg.cc/mDnddrFn/w.png" alt=""></div>
+          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/JhqvQmxw/bob.png" alt=""></div>
+          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/wv4rSVn0/bb.png" alt=""></div>
+          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/4xvSJZrK/mp.png" alt=""></div>
+          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/mDnddrFn/w.png" alt=""></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="productTwoOuter">
+  <div class="productTwoOuter productsDadaOuter2">
     <div class="container">
-      <div class="productTwoInner Heading text-center">
+      <div class="productTwoInner HeadingFour Heading text-center">
         <h2 class="my-5">Latest Trends</h2>
         <div class="row align-items-center">
           <div class="col-12 col-sm-6 col-lg-3  text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
+            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
               <div class="px-3">
                 <h3>Neon Blue</h3>
                 <h5>$122 <span>$299</span></h5>
@@ -343,7 +347,7 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
                 <h5>$157 <span>$269</span></h5>
@@ -354,16 +358,23 @@
           </div>
 
           <div class="col-12 col-lg-6 text-start p-2 ">
-            <div class="productsDad KnowMoreDiv">
-              <div class="py-4 px-5 text-start">
-                <h4 class="my-3">NIKE SHOE</h4>
+            <div class="productsDad KnowMoreDiv productsDada2">
+              <div class="py-xxl-4 py-3  px-5 text-start">
+                <h4 class="my-xxl-4 my-3">NIKE SHOE</h4>
                 <ul>
-                  <li class="my-xl-2 my-0"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ab numquam delectus eveniet
-                    corporis magni, incidunt architecto. Minus recusandae ut, omnis maxime aperiam blanditiis voluptates repellendus dicta quo corporis rerum!</p></li>
-                  <li class="my-xl-2  my-0"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ea suscipit eligendi placeat!
-                    Pariatur, delectus doloremque asperiores libero consequuntur illo minus provident iste? Ea autem
-                    aspernatur dolorum aliquam dolor asperiores!</p></li>
-                  <li class="my-xl-2 my-0"><p>Lorem ipsum dolor sit amet.</p></li>
+                  <li class="my-2">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ab numquam delectus eveniet
+                      corporis magni, incidunt architecto. Minus recusandae ut, omnis maxime aperiam blanditiis
+                      voluptates repellendus dicta quo corporis rerum!</p>
+                  </li>
+                  <li class="my-2  ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ea suscipit eligendi placeat!
+                      Pariatur, delectus doloremque asperiores libero consequuntur illo minus provident iste? Ea autem
+                      aspernatur dolorum aliquam dolor asperiores!</p>
+                  </li>
+                  <li class="my-2">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </li>
                 </ul>
                 <input class="btn btn-primary px-3 mt-4 mb-4 my-0" type="button" value="KNOW MORE ABOUT SHOES">
 
@@ -376,23 +387,25 @@
               </div>
             </div>
           </div>
+          <div class="row py-3"></div>
         </div>
       </div>
     </div>
   </div>
+
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row text-center my-5">
-      <div class="col-lg-4 p-3">
+    <div class="row text-center  my-5">
+      <div class="col-lg-4 leftPro p-3">
         <h2 class="fw-normal m-2">Josh Beda</h2>
         <div class="reviewHolder">
-          <img  src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
+          <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
         </div>
         <p class="m-2">Some representative placeholder content for the three.</p>
         <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4 centerPro p-3">
         <h2 class="m-2 fw-normal">Alex Mia</h2>
         <div class="reviewHolder">
           <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
@@ -400,7 +413,7 @@
         <p class="m-2">Some representative placeholder content for the three.</p>
         <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4 rightPro p-3">
         <h2 class=" m-2 fw-normal">Roy Parker</h2>
         <div class="reviewHolder">
           <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
@@ -412,53 +425,56 @@
 
   </div>
   <div class="footerOuter">
-  <footer class="container footerImage p-5">
-    <div class="row">
-      <div class="col-12 col-md">
-    <img src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png">
-        <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+    <footer class="container footerImage p-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png">
+          <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+        </div>
+        <div class="col-6 col-md mb-sm-0  mb-5">
+          <h5 class="mb-4">Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md mb-sm-0  mb-5">
+          <h5 class="mb-4">Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md mb-sm-0  mb-5">
+          <h5 class="mb-4">Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md mb-sm-0 mb-5">
+          <h5 class="mb-4">About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-6 col-md mb-sm-0  mb-5">
-        <h5 class="mb-4">Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md mb-sm-0  mb-5">
-        <h5 class="mb-4">Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md mb-sm-0  mb-5">
-        <h5 class="mb-4">Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md mb-sm-0 mb-5">
-        <h5 class="mb-4">About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-          <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+    </footer>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
 </body>
 
 
