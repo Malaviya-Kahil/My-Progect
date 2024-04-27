@@ -131,12 +131,12 @@ gsap.from('.productsDada', {
     opacity: 0,
     duration: 1,
     stagger: 1,
-    scale: 2,
+    scale: 1.6,
     scrollTrigger: {
         scroller: "body",
         trigger: ".productsDadaOuter",
-        start: "top 40%",
-        end: "bottom 90%",
+        start: "top 80%",
+        end: "bottom 100%",
         scrub: 3
     }
 
@@ -146,12 +146,27 @@ gsap.from('.productsDada2', {
     opacity: 0,
     duration: 1,
     stagger: 1,
-    scale: 2,
+    scale: 1.6,
     scrollTrigger: {
         scroller: "body",
         trigger: ".productsDadaOuter2",
-        start: "top 40%",
-        end: "bottom 90%",
+        start: "top 80%",
+        end: "bottom 100%",
+        scrub: 3
+    }
+
+})
+gsap.from('.productsDada3', {
+    x: "100%",
+    opacity: 0,
+    duration: 1,
+    stagger: 1,
+    scale: 1.6,
+    scrollTrigger: {
+        scroller: "body",
+        trigger: ".productsDadaOuter3",
+        start: "top 80%",
+        end: "bottom 100%",
         scrub: 3
     }
 
@@ -210,7 +225,6 @@ gsap.from('.centerPro', {
         trigger: ".centerPro",
         start: "top 50%",
         end: "bottom 100%",
-
         scrub: 3
     }
 })
