@@ -658,8 +658,8 @@ button p {
 }
 
 .productsDad {
-    background-color: #00000085;
-    border-radius: 20px;
+    background-color: #00000095;
+    border-radius: 40px;
 
 }
 
@@ -711,6 +711,12 @@ button p {
     color: white;
     font-weight: 500;
 }
+.KnowMoreDiv h4 {
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(to left,#dd4797 ,#dd4797 ,#dd4797, #dd4797, #fd8534);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
 .marketing2 h2 {
     color: #fd8534;
@@ -744,7 +750,7 @@ button p {
 }
 
 .footerOuter li a:hover {
-    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-image: linear-gradient(to left,#dd4797, #dd4797, #fd8534) !important;
     background-clip: text;
     color: #00000000 !important;
     font-weight: 500;
@@ -755,7 +761,7 @@ button p {
 
 .footerOuter p {
     margin-top: 10px;
-    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-image: linear-gradient(to left, #dd4797, #dd4797, #fd8534) !important;
     background-clip: text;
     color: #00000000;
     -webkit-background-clip: text;
@@ -763,7 +769,7 @@ button p {
 
 .footerOuter h5 {
     font-size: 25px;
-    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-image: linear-gradient(to left, #dd4797, #dd4797, #fd8534) !important;
     background-clip: text;
     color: #00000000;
     -webkit-background-clip: text;
