@@ -618,6 +618,7 @@ button p {
     color: rgba(255, 255, 255, 0);
     background: linear-gradient(to left, #dd4797, #fd8534);
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .productOneMain h2:before {
@@ -672,12 +673,14 @@ button p {
     color: rgba(255, 255, 255, 0);
     background: linear-gradient(to left, #dd4797, #fd8534);
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .productsDad:hover h3 {
     color: rgba(255, 255, 255, 0);
     background: linear-gradient(to left, #dd4797, #fd8534);
     background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .productsDad p {
@@ -747,6 +750,7 @@ button p {
     font-weight: 500;
     transform: translateX(10px);
     display: inline-block;
+    -webkit-background-clip: text;
 }
 
 .footerOuter p {
@@ -754,6 +758,7 @@ button p {
     background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
     background-clip: text;
     color: #00000000;
+    -webkit-background-clip: text;
 }
 
 .footerOuter h5 {
@@ -761,4 +766,5 @@ button p {
     background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
     background-clip: text;
     color: #00000000;
+    -webkit-background-clip: text;
 }
