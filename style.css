@@ -23,6 +23,10 @@
     overflow: hidden;
 }
 
+.marketing2 {
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -141,9 +145,10 @@ img {
     border-radius: 100px;
     color: white;
     text-transform: uppercase;
-   
+
 }
-.mainPosterText a:hover{
+
+.mainPosterText a:hover {
     background-color: #c15a15;
 }
 
@@ -173,23 +178,23 @@ img {
 }
 
 .shoeLeft img {
-    transition: all 0.2s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .shoeRight img {
-    transition: all 0.2s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .shoeLeft:hover img {
     scale: 1.03;
     transform: rotate(10deg);
-    filter: drop-shadow(-10px 10px 5px gray);
+
 }
 
 .shoeRight:hover img {
     scale: 1.03;
     transform: rotate(-10deg);
-    filter: drop-shadow(10px 10px 5px gray);
+
 }
 
 .Heading h2::after {
@@ -209,7 +214,6 @@ img {
 
 .Heading h2:hover::after {
     position: absolute;
-    background-image: linear-gradient(to right, #ffffff00, #fd8534);
     top: 0%;
     right: 50%;
 }
@@ -231,7 +235,7 @@ img {
 
 .Heading h2:hover::before {
     position: absolute;
-    background-image: linear-gradient(to left, #ffffff00, #fd8534);
+
     top: 100%;
     left: 50%;
 }
@@ -249,7 +253,7 @@ img {
 
 
 .productsDad img {
-    transition: all 0.25s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 
@@ -327,10 +331,11 @@ img {
     border-radius: 500px;
     overflow: hidden;
     margin: 15px auto;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
 }
+
 .reviewHolder:hover {
-   scale:1.1;
+    scale: 1.1;
 }
 
 .reviewButton {
@@ -353,15 +358,403 @@ img {
 }
 
 .footerImage li a {
-    transition: all 0.15s ease-out;
+    transition: all 0.25s ease-out;
 }
 
 .footerOuter {
     background-color: whitesmoke;
 }
 
-.footerImage li a:hover {
-    transform: translate(10px, 0px);
-    display: inline-block;
+
+
+
+
+body {
+    background-color: black;
+}
+
+
+
+.navbar {
+    background: rgb(0, 0, 0) !important;
+}
+
+.navbar li>a {
     color: #dd4797 !important;
+}
+
+.navbar li ul li a {
+    color: #000000 !important;
+}
+
+.navbar .dropdown>a {
+    color: #fd8534 !important;
+}
+
+.navbar img {
+
+    filter: invert(10);
+}
+
+
+.alert {
+    background-color: #333;
+    border: none;
+    color: white !important;
+    margin-bottom: 0px;
+}
+
+.alert .btn-close {
+    background-color: #333;
+    border: none;
+    color: white !important;
+
+}
+
+
+.mainPosterOuter {
+    background-color: #000000;
+}
+
+.mainPosterOuter img {
+    animation: main 2s ease-in-out 4s infinite alternate;
+}
+
+@keyframes main {
+    50% {
+        transform: translateY(7%) rotate(-4deg);
+    }
+}
+
+.mainPosterOuter h4 {
+    color: white;
+}
+
+.mainPosterOuter h2 {
+    font-weight: 700;
+    transform: scaleX(1.1);
+    -webkit-text-stroke: 4px #dd4797;
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainPosterOuter h2::first-letter {
+    font-weight: 700;
+    transform: scaleX(1.1);
+    -webkit-text-stroke: 4px #fd8534;
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainPosterOuter p {
+    color: white;
+}
+
+.mainPosterOuter a {
+    color: rgb(0, 0, 0);
+}
+
+.mainPosterOuter a {
+    background: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+}
+
+.navbar button {
+    background: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+    border: none;
+
+}
+
+button p {
+    color: black;
+    font-weight: 500;
+}
+
+.navbar button:active {
+    background: linear-gradient(-45deg, #dd479795, #fd853895) !important;
+
+}
+
+.navbar button:hover {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+    color: white;
+
+}
+
+.mainPosterOuter a:active {
+    background: linear-gradient(-45deg, #dd479795, #fd853895) !important;
+
+}
+
+.mainPosterOuter a:hover {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+
+}
+
+.productsDad .btn:active {
+    background: linear-gradient(-45deg, #dd479795, #fd853895) !important;
+
+}
+
+.productsDad .btn:hover {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+
+}
+
+.KnowMoreDiv input:checked {
+    background-color: #dd4797;
+    border-color: #dd4797;
+}
+
+.navTick input:checked {
+    background-color: #000000;
+    border-color: transparent;
+}
+
+.marketing2 a {
+    background: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+    color: black;
+}
+
+.marketing2 a:hover {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+    color: black;
+}
+
+.marketing2 a:active {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+    color: black !important;
+}
+
+.sendmeBtn:hover {
+    background: linear-gradient(-45deg, #dd479795, #fd853495) !important;
+    color: black;
+}
+
+.sendmeBtn:active {
+    background: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+    color: black;
+}
+
+
+
+.dropdown-menu {
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.dropdown-item p {
+    display: inline-block;
+    color: #ffffff !important;
+}
+
+.dropdown-item p {
+    display: inline-block;
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.marketing img {
+    filter: invert(10);
+}
+
+.marketing h2 {
+    color: #fd8534;
+    font-weight: 500 !important;
+}
+
+.marketing p {
+    color: #dd4797;
+    font-weight: 500;
+}
+
+.modal-header {
+    border-bottom: 2px solid black;
+}
+
+.modal-footer {
+    border-top: 2px solid black;
+}
+
+.modal-footer .btn {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.modal-footer .btn:active {
+    background-color: transparent;
+    border: 2px solid rgb(72, 72, 72);
+}
+
+.modal-content {
+    background: linear-gradient(-45deg, #dd4797, #fd8534);
+    color: #000000;
+    font-weight: 500;
+}
+
+.modalEmail {
+
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid black !important;
+
+}
+
+.modalEmail:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.productOneMain h2 {
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(to left, #dd4797, #fd8534);
+    background-clip: text;
+}
+
+.productOneMain h2:before {
+
+    background-image: linear-gradient(to left, #00000000, #ffffff);
+}
+
+.productOneMain h2:after {
+
+    background-image: linear-gradient(to right, #dd479700, #ffffff);
+}
+
+.productTwoOuter {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+}
+
+.productTwoOuter h2 {
+    color: rgb(0, 0, 0);
+}
+
+.productTwoOuter a {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.productTwoOuter h2:before {
+
+    background-image: linear-gradient(to left, #00000000, #000000);
+}
+
+.productTwoOuter h2:after {
+
+    background-image: linear-gradient(to right, #dd479700, #000000);
+}
+
+.productsDad {
+    background-color: #00000085;
+    border-radius: 20px;
+
+}
+
+.productsDad .btn {
+    background-image: linear-gradient(-45deg, #dd4797, #fd8534) !important;
+    color: black !important;
+    font-weight: 500;
+}
+
+.productsDad h3 {
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(to left, #dd4797, #fd8534);
+    background-clip: text;
+}
+
+.productsDad:hover h3 {
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(to left, #dd4797, #fd8534);
+    background-clip: text;
+}
+
+.productsDad p {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+}
+
+.productsDad h5 {
+    color: rgb(255, 255, 255);
+
+}
+
+.productsDad h5 span {
+    color: rgb(152, 152, 152);
+
+}
+
+.KnowMoreDiv .form-check {
+
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.KnowMoreDiv .form-check label {
+    color: white;
+    font-weight: 500;
+}
+
+.marketing2 h2 {
+    color: #fd8534;
+    font-weight: 500 !important;
+}
+
+.marketing2 p {
+    color: #dd4797;
+    font-weight: 500;
+}
+
+.marketing2 a {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+
+
+.footerOuter {
+    background-color: #000000;
+}
+
+.footerOuter img {
+    filter: invert(10);
+}
+
+.footerOuter li a {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: all 0.2s ease-in;
+}
+
+.footerOuter li a:hover {
+    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-clip: text;
+    color: #00000000 !important;
+    font-weight: 500;
+    transform: translateX(10px);
+    display: inline-block;
+}
+
+.footerOuter p {
+    margin-top: 10px;
+    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-clip: text;
+    color: #00000000;
+}
+
+.footerOuter h5 {
+    font-size: 25px;
+    background-image: linear-gradient(to left, #dd4797, #dd4797, #dd4797, #fd8534) !important;
+    background-clip: text;
+    color: #00000000;
 }
