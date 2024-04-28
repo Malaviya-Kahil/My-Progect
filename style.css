@@ -507,9 +507,13 @@ button p {
     border-color: #dd4797;
 }
 
-.navTick input:checked {
-    background-color: #000000;
-    border-color: transparent;
+.navTick input{
+    background-color: #00000000 !important;
+    border-color: black !important;
+}
+.navTick input:checked{
+    background-color: #000000 !important;
+    border-color: black !important;
 }
 
 .marketing2 a {
@@ -598,7 +602,7 @@ button p {
 
 .modalEmail {
 
-    background: transparent;
+    background-color: transparent !important;
     border: none;
     border-radius: 0px;
     border-bottom: 2px solid black !important;
