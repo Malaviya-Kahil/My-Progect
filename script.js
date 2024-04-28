@@ -1,4 +1,5 @@
 
+
 var tl = gsap.timeline();
 
 tl.from('#rand', {
@@ -228,3 +229,8 @@ gsap.from('.centerPro', {
         scrub: 3
     }
 })
+
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('.main'),
+//     smooth: true
+// });
