@@ -16,12 +16,14 @@
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
-  <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#"><img
           src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png" alt=""></a>
@@ -36,25 +38,41 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="rand" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="rand"
+              aria-expanded="false">
               sport
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Men</a></li>
-              <li><a class="dropdown-item" href="#">Kids <span class="badge pinkBadge ">Hot</span></a></li>
-              <li><a class="dropdown-item" href="#">Women <span class="badge orangeBadge ">New</span></a></li>
-              <li><a class="dropdown-item" href="#">Others </a></li>
+              <li><a class="dropdown-item " href="#">
+                  <p>Man</p>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Kids</p> <span class="badge pinkBadge ">Hot</span>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Women</p> <span class="badge orangeBadge ">New</span>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Others</p>
+                </a></li>
 
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" id="rand" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="rand" data-bs-toggle="dropdown"
+              aria-expanded="false">
               classic
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Trendy <span class="badge orangeBadge ">New</span></a></li>
-              <li><a class="dropdown-item" href="#">Sporty <span class="badge pinkBadge ">Hot</span></a></li>
-              <li><a class="dropdown-item" href="#">Classic</a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Trendy</p> <span class="badge orangeBadge ">New</span>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Sporty</p> <span class="badge pinkBadge ">Hot</span>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <p>Classic</p>
+                </a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -65,7 +83,9 @@
           </li>
           <form class="d-flex" role="search">
             <button type="button" class="btn  headerButton text-light px-5 mx-lg-5 rounded-pill" data-bs-toggle="modal"
-              data-bs-target="#exampleModal"  type="submit">Log in</button>
+              data-bs-target="#exampleModal" type="submit">
+              <p>Log in</p>
+            </button>
           </form>
         </ul>
       </div>
@@ -83,25 +103,25 @@
             <div class="row mb-3">
               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
+                <input type="email " class="form-control modalEmail" id="inputEmail3">
               </div>
             </div>
             <div class="row mb-3">
               <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
               <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
+                <input type="password" class="form-control modalEmail" id="inputPassword3">
               </div>
             </div>
             <fieldset class="row mb-3">
               <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
               <div class="col-sm-10">
-                <div class="form-check">
+                <div class="form-check navTick">
                   <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
                   <label class="form-check-label" for="gridRadios1">
                     Male
                   </label>
                 </div>
-                <div class="form-check">
+                <div class="form-check navTick">
                   <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                   <label class="form-check-label" for="gridRadios2">
                     Female
@@ -112,20 +132,20 @@
             <fieldset class="row mb-3">
               <legend class="col-form-label col-sm-2 pt-0">Interest</legend>
               <div class="col-sm-10">
-                <div class="form-check">
+                <div class="form-check navTick">
                   <input class="form-check-input" type="checkbox" id="gridCheck1">
                   <label class="form-check-label" for="gridCheck1">
                     Sports
                   </label>
                 </div>
-                <div class="form-check">
+                <div class="form-check navTick">
                   <input class="form-check-input" type="checkbox" id="gridCheck1">
                   <label class="form-check-label" for="gridCheck1">
                     Classic
                   </label>
                 </div>
             </fieldset>
-            <div class="col-12">
+            <div class="col-12 navTick">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="inlineFormCheck">
                 <label class="form-check-label" for="inlineFormCheck">
@@ -136,15 +156,14 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="submit" class="btn login text-light">Log in</button>
+          <button type="submit" class="btn login text-light">
+            <p>Log in</p>
+          </button>
         </div>
       </div>
     </div>
   </div>
-  <div class="alert alert-secondary  alert-dismissible fade show" role="alert">
-    <strong>NIKE </strong><span>&nbsp;&nbsp;Want to buy some shoes !</span>
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
+
   <div class="mainPosterOuter">
     <div class="container-fluid">
       <div class="mainposterInner">
@@ -209,9 +228,13 @@
           <div class="col-12">
             <h2 class="my-5">Future Is Here</h2>
           </div>
-          <div class="col-12 twoShoe shoeLeft  OneshoeLeft col-md-6"><img src="https://i.postimg.cc/d3H0HqhC/bbo.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight OneshoeRight col-md-6"><img src="https://i.postimg.cc/3Ry78gNk/f1.png" alt=""></div>
+          
+          <div class="col-12 twoShoe shoeLeft  OneshoeLeft col-md-6"><img src="https://i.postimg.cc/g0pGZy22/Explore-the-Nike-single-shoe-side-view-revealing-its-sleek-design-and-cutting-edge-technology-The.png "
+              alt=""></div>
+          <div class="col-12 twoShoe shoeRight OneshoeRight col-md-6"><img src="https://i.postimg.cc/L6cc9x5W/wr.png"
+              alt=""></div>
         </div>
+        <div class="row py-4"></div>
       </div>
     </div>
   </div>
@@ -221,10 +244,11 @@
         <h2 class="my-5">Latest Trends</h2>
         <div class="row productsDadaOuter">
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png"
+                alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Neon Blue</h3>
+                <h5>$129 <span>$189</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -232,10 +256,11 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png"
+                alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h5>$157 <span>$169</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -246,8 +271,8 @@
             <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png
               " alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Multi Spa</h3>
+                <h5>$167 <span>$192</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -255,10 +280,12 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/htxR02yq/bbo.png
+"
+                alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Tuff Red</h3>
+                <h5>$183 <span>$196</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -267,10 +294,11 @@
         </div>
         <div class="row productsDadaOuter2">
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
+            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png"
+                alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Neon Blue</h3>
+                <h5>$129 <span>$189</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -278,10 +306,11 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png"
+                alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h5>$157 <span>$169</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -292,8 +321,8 @@
             <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/sDKVJfkD/multi.png
               " alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Multi Spa</h3>
+                <h5>$167 <span>$192</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -301,16 +330,18 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/L6cc9x5W/wr.png" alt="">
+            <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/htxR02yq/bbo.png
+"
+                alt="">
               <div class="px-3">
-                <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h3>Tuff Red</h3>
+                <h5>$183 <span>$196</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
             </div>
           </div>
-          <div class="row py-3"></div>
+          <div class="row py-4"></div>
         </div>
       </div>
     </div>
@@ -322,11 +353,16 @@
           <div class="col-12">
             <h2 class="my-5">Popular Ones</h2>
           </div>
-          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/JhqvQmxw/bob.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/wv4rSVn0/bb.png" alt=""></div>
-          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/4xvSJZrK/mp.png" alt=""></div>
-          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/mDnddrFn/w.png" alt=""></div>
+          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/JhqvQmxw/bob.png"
+              alt=""></div>
+          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/wv4rSVn0/bb.png"
+              alt=""></div>
+          <div class="col-12 twoShoe shoeLeft TwoshoeLeft col-md-6"><img src="https://i.postimg.cc/4xvSJZrK/mp.png"
+              alt=""></div>
+          <div class="col-12 twoShoe shoeRight TwoshoeRight col-md-6"><img src="https://i.postimg.cc/mDnddrFn/w.png"
+              alt=""></div>
         </div>
+        <div class="row py-4"></div>
       </div>
     </div>
   </div>
@@ -337,10 +373,11 @@
         <h2 class="my-5">Latest Trends</h2>
         <div class="row productsDadaOuter3 align-items-center">
           <div class="col-12 col-sm-6 col-lg-3  text-start p-2 ">
-            <div class="productsDad  productsDada3"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png" alt="">
+            <div class="productsDad  productsDada3"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png"
+                alt="">
               <div class="px-3">
                 <h3>Neon Blue</h3>
-                <h5>$122 <span>$299</span></h5>
+                <h5>$129 <span>$189</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn text-light px-3 mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -348,10 +385,11 @@
           </div>
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada3"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png" alt="">
+            <div class="productsDad productsDada3"><img class="mb-4 mt-4" src="https://i.postimg.cc/G37YSrwz/pb.png"
+                alt="">
               <div class="px-3">
                 <h3>Purple Fur</h3>
-                <h5>$157 <span>$269</span></h5>
+                <h5>$157 <span>$169</span></h5>
                 <p>Lorem ipsum dolor sit amet.</p><input class="btn  text-light mt-4 mb-3" type="button"
                   value="ADD TO CART">
               </div>
@@ -393,44 +431,47 @@
       </div>
     </div>
   </div>
+  <div class="marketing2">
+    <div class="container ">
 
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row text-center  my-5">
-      <div class="col-lg-4 leftPro p-3">
-        <h2 class="fw-normal m-2">Josh Beda</h2>
-        <div class="reviewHolder">
-          <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
-        </div>
-        <p class="m-2">Some representative placeholder content for the three.</p>
-        <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 centerPro p-3">
-        <h2 class="m-2 fw-normal">Alex Mia</h2>
-        <div class="reviewHolder">
-          <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
-        </div>
-        <p class="m-2">Some representative placeholder content for the three.</p>
-        <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 rightPro p-3">
-        <h2 class=" m-2 fw-normal">Roy Parker</h2>
-        <div class="reviewHolder">
-          <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
-        </div>
-        <p class="m-2">Some representative placeholder content for the three.</p>
-        <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
+      <!-- Three columns of text below the carousel -->
+      <div class="row text-center  my-5">
+        <div class="col-lg-4 leftPro p-3">
+          <h2 class="fw-normal m-2">Josh Beda</h2>
+          <div class="reviewHolder">
+            <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
+          </div>
+          <p class="m-3">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 centerPro p-3">
+          <h2 class="m-2 fw-normal">Alex Mia</h2>
+          <div class="reviewHolder">
+            <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
+          </div>
+          <p class="m-3">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 rightPro p-3">
+          <h2 class=" m-2 fw-normal">Roy Parker</h2>
+          <div class="reviewHolder">
+            <img src="https://i.postimg.cc/kgNk9rVZ/Review.jpg" alt="">
+          </div>
+          <p class="m-3">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p class="m-2"><a class="btn reviewButton" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
   </div>
+ 
   <div class="footerOuter">
     <footer class="container footerImage p-5">
       <div class="row">
         <div class="col-12 col-md">
           <img src="https://i.postimg.cc/nhnmwLSs/Nike-Logo-1978-present-removebg-preview.png">
-          <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+          <small class="d-block mb-3 text-body-secondary">
+            <p>© 2017–2024</p>
+          </small>
         </div>
         <div class="col-6 col-md mb-sm-0  mb-5">
           <h5 class="mb-4">Features</h5>
@@ -473,8 +514,13 @@
       </div>
     </footer>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script src="script.js"></script>
 </body>
 
