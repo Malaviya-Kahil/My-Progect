@@ -1,5 +1,17 @@
 
+const lenis = new Lenis()
 
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+lenis.on('scroll', ScrollTrigger.update)
+
+gsap.ticker.add((time)=>{
+  lenis.raf(time * 1000)
+})
+
+gsap.ticker.lagSmoothing(0)
 var tl = gsap.timeline();
 
 tl.from('#rand', {
@@ -230,7 +242,13 @@ gsap.from('.centerPro', {
     }
 })
 
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('.main'),
-//     smooth: true
-// });
+document.querySelector('body').addEventListener('mousemove',function(dets){
+
+gsap.to('#cursor',{
+    x:dets.x,
+    y:dets.y,
+    duration:0.5
+})
+
+})
+
