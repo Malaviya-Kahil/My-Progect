@@ -14,15 +14,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
-
+<div id="cursor"></div>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#"><img
@@ -228,8 +229,9 @@
           <div class="col-12">
             <h2 class="my-5">Future Is Here</h2>
           </div>
-          
-          <div class="col-12 twoShoe shoeLeft  OneshoeLeft col-md-6"><img src="https://i.postimg.cc/g0pGZy22/Explore-the-Nike-single-shoe-side-view-revealing-its-sleek-design-and-cutting-edge-technology-The.png "
+
+          <div class="col-12 twoShoe shoeLeft  OneshoeLeft col-md-6"><img
+              src="https://i.postimg.cc/g0pGZy22/Explore-the-Nike-single-shoe-side-view-revealing-its-sleek-design-and-cutting-edge-technology-The.png "
               alt=""></div>
           <div class="col-12 twoShoe shoeRight OneshoeRight col-md-6"><img src="https://i.postimg.cc/L6cc9x5W/wr.png"
               alt=""></div>
@@ -238,13 +240,17 @@
       </div>
     </div>
   </div>
+  
   <div class="productTwoOuter ">
     <div class="container">
       <div class="productTwoInner HeadingTwo Heading text-center">
         <h2 class="my-5">Latest Trends</h2>
         <div class="row productsDadaOuter">
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
-            <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png"
+            
+            <div class="productsDad productsDada" id="opop">
+              <div class="mask"></div>
+              <img class="mb-4 mt-4" src="https://i.postimg.cc/RhQY4F73/ch.png"
                 alt="">
               <div class="px-3">
                 <h3>Neon Blue</h3>
@@ -281,8 +287,7 @@
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
             <div class="productsDad productsDada"><img class="mb-4 mt-4" src="https://i.postimg.cc/htxR02yq/bbo.png
-"
-                alt="">
+" alt="">
               <div class="px-3">
                 <h3>Tuff Red</h3>
                 <h5>$183 <span>$196</span></h5>
@@ -331,8 +336,7 @@
 
           <div class="col-12 col-sm-6 col-lg-3 text-start p-2 ">
             <div class="productsDad productsDada2"><img class="mb-4 mt-4" src="https://i.postimg.cc/htxR02yq/bbo.png
-"
-                alt="">
+" alt="">
               <div class="px-3">
                 <h3>Tuff Red</h3>
                 <h5>$183 <span>$196</span></h5>
@@ -426,7 +430,7 @@
               </div>
             </div>
           </div>
-          <div class="row py-4"></div>
+          <div class="row py-3"></div>
         </div>
       </div>
     </div>
@@ -463,7 +467,7 @@
       </div><!-- /.row -->
     </div>
   </div>
- 
+
   <div class="footerOuter">
     <footer class="container footerImage p-5">
       <div class="row">
@@ -513,14 +517,17 @@
         </div>
       </div>
     </footer>
+
   </div>
+
+  <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
     integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
     integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+   
   <script src="script.js"></script>
 </body>
 
